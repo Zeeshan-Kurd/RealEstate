@@ -14,9 +14,9 @@
 		
 		<div id="info">
 			<h2 id = "sidenav"><a href="#heading">STAGE 1 (Pre-Production)</a></h2>
-			<h2 id = "sidenav"><a href="#1">STAGE 2 (Production)</a></h2>
-			<h2 id = "sidenav"><a href="#2">STAGE 3 (Post-Production)</a></h2>
-			<h2 id = "sidenav"><a href="#3">STAGE 4 (Testing)</a></h2>
+			<h2 id = "sidenav"><a href="#Stage2">STAGE 2 (Production)</a></h2>
+			<h2 id = "sidenav"><a href="#Stage3">STAGE 3 (Post-Production)</a></h2>
+			<h2 id = "sidenav"><a href="#Stage4">STAGE 4 (Testing)</a></h2>
 
 			<br>
 			<h2 id = "sidenav"><a href="#top">BACK TO TOP</a></h2>
@@ -28,8 +28,6 @@
 	
 </header>
 
-
-
 <nav class = "sticky">
 	
 	<button onclick="window.location.href='index.html'" id = "navbtns">HOME</button>
@@ -39,59 +37,45 @@
 		
 </nav>
 
-
-
-
 <body>
 
 	<div id = "journey">
 		<h3 id = "heading">OUR JOURNEY</h3>
+			
+		<h4>Stage 1 (Pre-Production)</h4>				
+			<p> During this phase of the project, the VR team completed the necessary tasks to produce the <b style="color:#55A3FF;">INITIAL DRAFT</b> of the project. The expected deliverable was a block out of the location with all the necessary props and layout completed. Reference images were also gathered
+				for the modeler to take inspiration from so they could model the objects as close to realism to the best of their ability. These reference images would also serve a purpose for the texturing phase of the project, so that the texturer could also have images to reference their materials on. 
+				<br>
+				<br>
+				<br id = "Stage2">
+				
+		<h4>Stage 2 (Production)</h4>				
+			<p> During this phase, team members would be working to produce the product with the plans from the Pre-Production phase. The expected deliverables for this phase would be the <b style="color:#55A3FF;">FINISHED 3D ENVIRONMENT</b> of the studio apartment ready for post-production work. 
+				<br> <br>
+				Models would be created using 3D modelling software Maya or Blender and would be created within separate files prepared for exportation into Unreal Engine. These would be high resolution models of the block out props, done in quads, which would then be imported into Unreal to use. Afterwards planning on how the model would be create needs to happen to optimize the time spent on each object. The models do not need to be complex but have enough detail so that the textures have enough room on the UV to not be distorted.  	
+				<br> <br>
+				<img id = "journeypic" src="images/asset.PNG" alt = "an asset from the VR apartment in unreal engine" >
+				<br>
+				The execution comes next as the modeler would be creating a primitive shape of the 3D model based on the initial plans. The models here would have to adhere to the measurements of its real-world counterpart through in-built measurement of the software. This is done to accomplish the goal of making the models exportation to Unreal easier. 
+				<br> <br>
+				<img id = "journeypic" src="images/birdseyeview.PNG" alt = "birdseye view of the VR apartment in unreal engine" >
+				<br>
+				Afterwards the finished models would need to be UV unwrapped to provide a base which textures could be applied to the models using the software Quixel Mixer. During this stage the UV map needs to be optimize, giving bigger space for polygon faces that the user would see, as to ease the pipeline. One keynote here is that the UVs cannot be distorted as it would affect how the texture would look. Here it is also advantageous to bake in lighting information in a separate UV channel for an easier time doing lighting within the Unreal Game Engine. 
+				<br> <br>
+				Texturing of the models would be done using Quixel Mixer. After all the models have been UV Mapped, the UVs would be exported to Quixel Mixer to begin the texturing process. The textures created here would be based on the references gathered doing the pre-production phase of the project. Once everything on model production is done, the next phase would be using Unreal Engine to compile everything together. The block out of environment would be replaced by high quality textured models and then lighting would be done, ending the production phase. </p>
+			<br id = "Stage3">
+			
+		<h4>Stage 3 (Post-Production)</h4>				
+			<p>End phase of the game. By this point the game should theoretically be complete with basic menu and functions allowing the user to move around the environment. Deliverables would be a functioning version of the game. </p>
+			<br id = "Stage4">
+			
+		<h4>Stage 4 (Testing)</h4>				
+			<p> A file was created and stored in this websites files for users to launch the in-depth VR simulation of the room on their own computer or VR Headset. This will allow for a more immersive experience for those with access to the technolog.This testing was done through an initial prototype run through of the environment created by Unreal engine, using the a VR headset supplied by Mark. Testing the 3D environment would occur using the Unreal Engine, in which a VR preview would be done to see if the application works.
+			</p>
 
-
-	</div>
-		
+	</div>		
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
